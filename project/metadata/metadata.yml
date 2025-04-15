@@ -1,0 +1,26 @@
+metadata_version: 1
+name: ML model - Trustworthiness of an Autonomous Car
+description: Building, training and evaluating ML models to assess the trust level of an autonomous car
+tags:
+- deep neural network
+- autonomous-vehicle
+- Machine Learning
+- SVM
+- LSTM
+- Trustworthiness
+authors:
+- name: Rajkumar Das
+  affiliations:
+  - name: Federation University Australia
+- name: Joarder Kamruzzaman
+  affiliations:
+  - name: Federation University Australia
+- name: Gour Karmakar
+  affiliations:
+  - name: Federation University Australia
+- name: Syed Islam
+  affiliations:
+  - name: Federation University Australia
+- name: Abdullahi Chowdhury
+  affiliations:
+  - name: Federation University Australia

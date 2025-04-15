@@ -1,0 +1,116 @@
++ python -u Model_Comparison.py
+Using TensorFlow backend.
+/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Processing Final Results Comparison
+Accuracy Score for C is 0.9472687939426717
+Precision Score for C is 0.9334719334719335
+Recall Score for C is 0.9315352697095436
+F1 Score for C is 0.932502596053998
+Cohen Kappa Score for C is 0.8892366419952427
+ROC AUC Score for C is 0.9444532476434041
+Confusion Matrix for C is [[2156   96]
+ [  99 1347]]
+Accuracy Score for L is 0.7893455922120065
+Precision Score for L is 0.79493545183714
+Recall Score for L is 0.8139298423995933
+F1 Score for L is 0.8043205224817884
+Cohen Kappa Score for L is 0.5762780970726299
+ROC AUC Score for L is 0.78766971611603
+Confusion Matrix for L is [[1318  413]
+ [ 366 1601]]
+Accuracy Score for R is 0.7598702001081665
+Precision Score for R is 0.7899947889525795
+Recall Score for R is 0.7576211894052973
+F1 Score for R is 0.773469387755102
+Cohen Kappa Score for R is 0.5182410690105309
+ROC AUC Score for R is 0.7600716436124896
+Confusion Matrix for R is [[1294  403]
+ [ 485 1516]]
+Accuracy Score for C is 0.8046511627906977
+Precision Score for C is 0.7542857142857143
+Recall Score for C is 0.7630057803468208
+F1 Score for C is 0.7586206896551724
+Cohen Kappa Score for C is 0.5945672915029745
+ROC AUC Score for C is 0.7978453026247722
+Confusion Matrix for C is [[428  86]
+ [ 82 264]]
+Accuracy Score for L is 0.6337209302325582
+Precision Score for L is 0.6523702031602708
+Recall Score for L is 0.6422222222222222
+F1 Score for L is 0.6472564389697649
+Cohen Kappa Score for L is 0.2664103119584056
+ROC AUC Score for L is 0.6333062330623307
+Confusion Matrix for L is [[256 154]
+ [161 289]]
+Accuracy Score for R is 0.6104651162790697
+Precision Score for R is 0.6215644820295984
+Recall Score for R is 0.6533333333333333
+F1 Score for R is 0.6370530877573132
+Cohen Kappa Score for R is 0.21728971962616828
+ROC AUC Score for R is 0.6083739837398374
+Confusion Matrix for R is [[231 179]
+ [156 294]]
+Accuracy Score for C is 0.8982456140350877
+Precision Score for C is 0.8653846153846154
+Recall Score for C is 0.8571428571428571
+F1 Score for C is 0.8612440191387559
+Cohen Kappa Score for C is 0.7809145129224653
+ROC AUC Score for C is 0.8896825396825397
+Confusion Matrix for C is [[166  14]
+ [ 15  90]]
+Accuracy Score for L is 0.7403508771929824
+Precision Score for L is 0.7579617834394905
+Recall Score for L is 0.7677419354838709
+F1 Score for L is 0.7628205128205129
+Cohen Kappa Score for L is 0.4760248447204969
+ROC AUC Score for L is 0.7377171215880893
+Confusion Matrix for L is [[ 92  38]
+ [ 36 119]]
+Accuracy Score for R is 0.6982456140350877
+Precision Score for R is 0.7763975155279503
+Recall Score for R is 0.7142857142857143
+F1 Score for R is 0.7440476190476191
+Cohen Kappa Score for R is 0.378076630296879
+ROC AUC Score for R is 0.6935064935064936
+Confusion Matrix for R is [[ 74  36]
+ [ 50 125]]
+Average Precision Score for C is 0.9611724845574278
+Average Precision Score for L is 0.8103663504692408
+Average Precision Score for R is 0.833740173814003
+Processing Final Results DNN all data - trust, non-trust classification
+Accuracy Score for Target is 0.9587264150943396
+Precision Score for Target is 0.9373493975903614
+Recall Score for Target is 0.9773869346733668
+F1 Score for Target is 0.956949569495695
+Cohen Kappa Score for Target is 0.9173452451237036
+ROC AUC Score for Target is 0.9598045784477944
+Confusion Matrix for Target is [[848  52]
+ [ 18 778]]
+Accuracy Score for Target is 0.8836477987421384
+Precision Score for Target is 0.851024208566108
+Recall Score for Target is 0.9364754098360656
+F1 Score for Target is 0.8917073170731709
+Cohen Kappa Score for Target is 0.7666186213189109
+ROC AUC Score for Target is 0.8824007950467883
+Confusion Matrix for Target is [[386  80]
+ [ 31 457]]
+Accuracy Score for Target is 0.8641509433962264
+Precision Score for Target is 0.8295081967213115
+Recall Score for Target is 0.9267399267399268
+F1 Score for Target is 0.8754325259515571
+Cohen Kappa Score for Target is 0.7270581503468994
+ROC AUC Score for Target is 0.8622026481948661
+Confusion Matrix for Target is [[205  52]
+ [ 20 253]]
+Average Precision Score for Target is 0.9861681110291899
